@@ -1,0 +1,17 @@
+# Problem Statement: Write a Python program that:
+# 1.   Creates a dictionary where student names are keys and their marks are values.
+# 2.   Asks the user to input a student's name.
+# 3.   Retrieves and displays the corresponding marks.
+# 4.   If the student’s name is not found, display an appropriate message.
+
+code:
+
+students_marks = {'Akshit': 45 , 'Harshveer': 45, 'Vasudev': 45}
+
+name =  input("enter student's name: ")
+
+if name in students_marks:
+    print(f"{name}'s marks: {students_marks[name]}")
+
+else:
+    print(f"student {name} not found in records")
