@@ -9,7 +9,7 @@
 list1 = [1,2,3,4,5,6,7,8,9,10]
 
 print("\nExtracted list: ")
-print(list1[0:6])
+print(list1[0:5])
 
 print("\nReverse of extracted list: ")
 list1.reverse()
